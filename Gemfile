@@ -5,7 +5,7 @@ gem 'rails', '~> 4.2.0'
 
 #gem 'pg' # soooooon!
 # must use this version of mysql2 for rails 4.0.0
-gem 'mysql2', '~> 0.3.18'
+gem 'pg'
 
 group :development do
   # gem 'capistrano'

@@ -211,7 +211,6 @@ GEM
     multi_json (1.11.2)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    mysql2 (0.3.20)
     nenv (0.2.0)
     net-http-persistent (2.9.4)
     net-http-pipeline (1.0.1)
@@ -232,6 +231,7 @@ GEM
     orm_adapter (0.5.0)
     parser (2.3.0.1)
       ast (~> 2.2)
+    pg (0.18.4)
     phony (2.15.13)
     phony_rails (0.12.11)
       activesupport (>= 3.0)
@@ -449,8 +449,8 @@ DEPENDENCIES
   memory_profiler
   memory_test_fix
   mocha
-  mysql2 (~> 0.3.18)
   newrelic_rpm
+  pg
   phony_rails
   poltergeist
   pry
@@ -480,4 +480,4 @@ DEPENDENCIES
   wuparty
 
 BUNDLED WITH
-   1.11.2
+   1.12.4
